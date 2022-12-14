@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -20,6 +23,7 @@ marquee {
 }
 .wrapper {
   min-height: 200vh;
+  margin-bottom: 30px;
   display: grid;
   gap: 10px;
   grid-template-areas:
@@ -36,15 +40,18 @@ marquee {
   padding: 1rem;
 }
 .overlay {
-  background: rgb(255, 106, 0);
-  font-size: 20px;
+  font-size: 40px;
   font-family: cursive;
+  color: white;
   opacity: 0;
 }
+
 .overlay:hover {
   opacity: 1;
   cursor: pointer;
+  backdrop-filter: blur(1000px);
 }
+
 .p1 {
   background: url(img/k3.jpg) no-repeat center center;
   background-size: cover;
@@ -115,4 +122,11 @@ marquee {
   background-size: cover;
   border-radius: 10%;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(241, 218, 36);
+  margin-bottom: 20px;
 }

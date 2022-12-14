@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(img/k7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+}
+.wrapper {
+  text-align: center;
+  color: white;
+}
+.box {
+  font-size: 20px;
+  margin-top: 60px;
+}
