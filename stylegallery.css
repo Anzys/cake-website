@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(244, 177, 105);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+}
+marquee {
+  font-style: italic;
+  font-size: 20px;
+}
+.wrapper {
+  min-height: 200vh;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "p1 p2 p2"
+    "p3 p3 p4"
+    "p5 p6 p7"
+    "p8 p8 p9";
+}
+
+.wrapper > * {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.overlay {
+  background: rgb(255, 106, 0);
+  font-size: 20px;
+  font-family: cursive;
+  opacity: 0;
+}
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.p1 {
+  background: url(img/k3.jpg) no-repeat center center;
+  background-size: cover;
+  grid-area: p1;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p2 {
+  background: url(img/k4.jpg) no-repeat center center;
+  grid-area: p2;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p3 {
+  background: url(img/k5.jpg) no-repeat center center;
+  grid-area: p3;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p4 {
+  background: url(img/k6.jpg) no-repeat center center;
+  grid-area: p4;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p5 {
+  background: url(img/k7.jpg) no-repeat center center;
+  grid-area: p5;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p6 {
+  background: url(img/k8.jpg) no-repeat center center;
+  grid-area: p6;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p7 {
+  background: url(img/k9.jpg) no-repeat center center;
+  background-size: cover;
+  grid-area: p7;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p8 {
+  background: url(img/k10.jpg) no-repeat center center;
+  grid-area: p8;
+  background-size: cover;
+  border-radius: 5%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.p9 {
+  background: url(img/k11.jpg) no-repeat center center;
+  grid-area: p9;
+  background-size: cover;
+  border-radius: 10%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
+}
