@@ -1,20 +1,19 @@
-* {
-  box-sizing: border-box;
-}
-body {
-  background: url(img/k7.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-h1 {
-  font-size: 50px;
-}
 .wrapper {
-  text-align: center;
+  background: url(img/k6.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   color: white;
 }
-.box {
-  font-size: 20px;
-  margin-top: 60px;
+
+.qw {
+  display: flex;
+  text-align: center;
+  min-height: 50px;
+  width: 50px;
+}
+.hero {
+  margin-top: 150px;
 }
