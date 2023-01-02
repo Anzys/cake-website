@@ -119,7 +119,7 @@ p {
   margin-top: -27px;
   height: 1000px;
 }
-.about h1 {
+.head-about {
   color: white;
 }
 .about img {
@@ -135,11 +135,13 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.paragraph {
+  margin: 20px 30px 10px 30px;
+  font-size: large;
+}
 
 footer {
-  height: 20vh;
+  height: 8vh;
   background: #ffe15d;
-}
-.fp {
-  margin-top: 400px;
+  margin-bottom: 20px;
 }

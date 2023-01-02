@@ -19,36 +19,6 @@ p {
   font-size: 26px;
   color: white;
 }
-.s {
-  color: rgb(236, 14, 14);
-}
-.h {
-  color: rgb(174, 231, 18);
-}
-.o {
-  color: rgb(9, 217, 228);
-}
-.p {
-  color: rgb(239, 104, 8);
-}
-.w {
-  color: rgb(8, 70, 241);
-}
-.i {
-  color: rgb(232, 9, 42);
-}
-.t {
-  color: rgb(24, 232, 93);
-}
-.h {
-  color: rgb(121, 13, 243);
-}
-.u {
-  color: rgb(27, 74, 57);
-}
-.sp {
-  color: rgb(207, 106, 106);
-}
 marquee {
   font-style: italic;
   font-size: 20px;
